@@ -1,0 +1,39 @@
+Date tutorials were done: 10/23/24
+Date account was setup: 10/16/24
+Repository: https://github.com/shawniedh/CEN4020-assignment2 (images directory contains proof of previous steps)
+
+1. shawn@Gandalf MINGW64 ~/Documents/Coursework/9. Fall 2024/CEN4020/Assignment 3/CEN4020-assignment2 (master)
+$ git push https://github.com/shawniedh/CEN4020-assignment2
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 753 bytes | 753.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/shawniedh/CEN4020-assignment2
+   f4975e5..9410fb1  master -> master
+
+2. 8
+git rev-list --count --all
+
+3. Wed Oct 23 20:53:49 2024
+git log -1 README.md
+
+4. Keep different versions of code (snapshot)
+Used when adding a feature or fixing a bug
+
+5. git log shows the committed history
+git status shows the current status of the directory
+
+6. git log --follow -- Vehicle.h
+
+7. git log --grep=file
+
+8. I) A class inherits properties and methods from another class
+II) Use the same interface for different data types
+III) Bundling related data and methods
+
+9. The Dictator and Lieutenants workflow has Lieutenant repositories that merge changes for some but not all developers. The developer pushes changes to their assigned repository.
+
+10. Instead of every developer having to resolve their own conflicts, the 100 developers could be divided to different lieutenant repositories that will resolve those conflicts en masse. The developers are less likely to step on each other this way.
